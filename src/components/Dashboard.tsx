@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Activity } from '../types';
 import { Trash2 } from 'lucide-react';
 import { deleteActivity } from '../utils/storage';

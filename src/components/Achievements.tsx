@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Flame, Star } from 'lucide-react';
 import { StreakData, Badge } from '../utils/achievements';
 

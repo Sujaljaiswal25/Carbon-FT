@@ -74,7 +74,7 @@ function App() {
     document.documentElement.classList.toggle('dark');
     setIsDark(!isDark);
     if (user) {
-      const updatedUser = { ...user, theme: newTheme };
+      const updatedUser = { ...user, theme: newTheme as 'light' | 'dark' };
       saveUser(updatedUser);
       setUser(updatedUser);
     }
