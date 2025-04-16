@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import 'remixicon/fonts/remixicon.css'
+import { useState, useEffect } from 'react';
 import { User, Activity } from './types';
 import { getUser, getActivities, saveUser, resetAllData } from './utils/storage';
 import Onboarding from './components/Onboarding';
