@@ -145,7 +145,7 @@ function App() {
           </div>
         </Modal>
       </div>
-      {/* <ChatBot /> */}
+      <ChatBot />
     </div>
   );
 }
